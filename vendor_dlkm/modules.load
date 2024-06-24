@@ -114,8 +114,6 @@ kernel/drivers/usb/repeater/repeater-qti-pmic-eusb2.ko
 kernel/drivers/usb/repeater/repeater-i2c-eusb2.ko
 kernel/drivers/usb/redriver/redriver.ko
 kernel/drivers/usb/redriver/nb7vpq904m.ko
-kernel/drivers/input/touchscreen/fts_spi/fts_touch_spi.ko
-kernel/drivers/input/touchscreen/xiaomi/xiaomi_touch.ko
 kernel/drivers/input/misc/pm8941-pwrkey.ko
 kernel/drivers/input/misc/qcom-hv-haptics.ko
 kernel/drivers/input/fingerprint/goodix_fod/goodix_fod.ko
@@ -253,6 +251,7 @@ extra/vendor/qcom/opensource/audio-kernel/asoc/codecs/wcd937x/wcd937x_slave_dlkm
 extra/vendor/qcom/opensource/audio-kernel/asoc/codecs/wcd939x/wcd939x_dlkm.ko
 extra/vendor/qcom/opensource/audio-kernel/asoc/codecs/wcd939x/wcd939x_slave_dlkm.ko
 extra/vendor/qcom/opensource/audio-kernel/asoc/codecs/cs35l41/cs35l41_dlkm.ko
+extra/vendor/qcom/opensource/audio-kernel/asoc/codecs/aw882xx/aw882xx_dlkm.ko
 extra/vendor/qcom/opensource/camera-kernel/camera.ko
 extra/vendor/qcom/opensource/camera-kernel/cameralog.ko
 extra/vendor/qcom/opensource/dataipa/drivers/platform/msm/gsi/gsim.ko
@@ -280,10 +279,8 @@ extra/vendor/qcom/opensource/display-drivers/msm/msm_drm.ko
 extra/vendor/qcom/opensource/eva-kernel/msm/msm-eva.ko
 extra/vendor/qcom/opensource/video-driver/msm_video.ko
 extra/vendor/qcom/opensource/graphics-kernel/msm_kgsl.ko
-extra/vendor/qcom/opensource/touch-drivers/nt36xxx-i2c.ko
-extra/vendor/qcom/opensource/touch-drivers/goodix_ts.ko
-extra/vendor/qcom/opensource/touch-drivers/atmel_mxt_ts.ko
-extra/vendor/qcom/opensource/touch-drivers/dummy_ts.ko
+extra/vendor/qcom/opensource/touch-drivers/fts_touch_spi.ko
+extra/vendor/qcom/opensource/touch-drivers/xiaomi_touch.ko
 extra/vendor/qcom/opensource/wlan/platform/cnss_utils/cnss_utils.ko
 extra/vendor/qcom/opensource/wlan/platform/cnss_utils/wlan_firmware_service.ko
 extra/vendor/qcom/opensource/wlan/platform/cnss_utils/cnss_plat_ipc_qmi_svc.ko
